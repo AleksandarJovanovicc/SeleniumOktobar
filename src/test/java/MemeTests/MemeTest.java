@@ -24,7 +24,7 @@ public class MemeTest extends MemeBaseTest {
         memeMainPage.clickOnUploadNewTemplate();
         memeMainPage.uploadImage("C:\\Users\\Aleksandar\\Desktop\\years.jpg");
         memeMainPage.clickOnUpload();
-        memeMainPage.insertTextIntoTopBox("Kad podesis thread sleep na godine umesto na milisekunde");
+        memeMainPage.insertTextIntoTopBox("Saljiva recenica");
         memeMainPage.clickOnGenerateMeme();
         waitForElementVisibility(memeMainPage.finalImage);
         saveImage(memeMainPage.getMemeSrc());
