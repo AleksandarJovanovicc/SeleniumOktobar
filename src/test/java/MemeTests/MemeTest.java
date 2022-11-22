@@ -22,7 +22,7 @@ public class MemeTest extends MemeBaseTest {
     @Test
     public void makeMeme() throws IOException {
         memeMainPage.clickOnUploadNewTemplate();
-        memeMainPage.uploadImage("C:\\Users\\Dragoljub\\Desktop\\years.jpg");
+        memeMainPage.uploadImage("C:\\Users\\Aleksandar\\Desktop\\years.jpg");
         memeMainPage.clickOnUpload();
         memeMainPage.insertTextIntoTopBox("Kad podesis thread sleep na godine umesto na milisekunde");
         memeMainPage.clickOnGenerateMeme();
